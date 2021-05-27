@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.App {
+  margin-right: 10px;
+}
+.not-found {
+  display: grid;
+  height: 50vh;
+  place-content: center;
+}
+.home {
+  margin-left: 40px;
+}
+.home-title {
+  font-size: 30px;
+  color:#007CFF;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+.home-loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@import "./navbar";
+@import "./login";
+@import "./productsList";
+@import "./productDetails";
+@import "./reviews";
+@import "./cart";
+
+
+@media only screen and (max-width: 600px) {
+  .home {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+  }
+  .home-title {
+    font-size: 25px;
+  }
+}

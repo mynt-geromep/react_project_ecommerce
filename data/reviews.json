@@ -1,0 +1,22 @@
+{
+  "reviews": [
+    {
+      "title": "Mens Casual Slim Fit",
+      "body": "Excellent Quality",
+      "rating": "★★★★",
+      "id": 1
+    },
+    {
+      "title": "White Gold Plated Princess",
+      "body": "Item shipped immediately",
+      "rating": "★★★★★",
+      "id": 2
+    },
+    {
+      "title": "Opna Women's Short Sleeve Moisture",
+      "body": "Well-packaged",
+      "rating": "★★★★",
+      "id": 3
+    }
+  ]
+}

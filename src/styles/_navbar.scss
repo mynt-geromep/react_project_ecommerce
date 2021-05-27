@@ -1,0 +1,48 @@
+/* navbar */
+.navbar {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .navbar h1 {
+    color: #007CFF;
+  }
+  .navbar .links {
+    margin-left: auto;
+  }
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  .navbar a:hover {
+    color: #007CFF;
+  }
+  .navbar button {
+    background: #007CFF;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 16px;
+    border: 1px solid #007CFF;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      justify-content: center;
+    }
+    .navbar h1 {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+    .navbar .links {
+      margin-right: auto;
+    }
+  }
