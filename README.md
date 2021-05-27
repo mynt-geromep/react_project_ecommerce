@@ -12,7 +12,7 @@ But I suggest that you clone this repository and follow the instructions below t
 In the project directory, you should run the following commands:
 
 ### `npm install`
-Installs node_modules in the project directory.
+Installs node_modules in the project directory. (Optional)
 ### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -24,5 +24,5 @@ Runs the JSON server that will show the reviews in the "Review Component". You n
 * Mobile-Friendly Website
 * High-Resolution Photos
 * User-Generated Reviews
-* Sign in/Sign up Page
+* Sign in/Sign up Page (using Firebase)
 * Add-to-Cart Function
